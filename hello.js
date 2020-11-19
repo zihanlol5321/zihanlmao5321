@@ -1,3 +1,5 @@
+alert("This website mite look weird in google chorme mobile version. Try to aboid it to get the best experience");
+alert("Ive added some background sound to make you concertrate😏😏");
 var q1 = document.getElementsByName("q1");
 var q2 = document.getElementsByName("q2");
 var q3 = document.getElementsByName("q3");
