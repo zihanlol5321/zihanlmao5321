@@ -15,7 +15,7 @@ function hello(){
     }
 }
 function hello1(){
-    if(q2[1].checked){
+    if(q2[2].checked){
         alert("correct😀.the ans is 3.(1)Open the fridge,(2)put the cow,(3)close the fridge")}
         else{
         alert(" wrong 😑. the ans is 3.(1)Open the fridge,(2)put the cow,(3)close the fridge");
@@ -29,7 +29,7 @@ function hello2(){
     }
 }
 function hello3(){
-    if(q4[2].checked){
+    if(q4[3].checked){
         alert("correct😀. because he was locked in the fridge");
     }else{
         alert("wrong 😑. the ans is deer because he was locked in the fridge");
@@ -43,7 +43,7 @@ function hello4(){
     }
 }
 function hello5(){
-    if(q6[3].checked){
+    if(q6[2].checked){
         alert("correct😀. The brick had hit him in the head");
     }else{
         alert(" wrong 😑. Remember the fallen brick of Q1? That brick had hit him in the head. Every question was connected");
@@ -53,19 +53,19 @@ function score(){
     if(q1[0].checked){
       result+=5;  
     }
-    if(q2[1].checked){
+    if(q2[2].checked){
         result+=5;
     }
     if(q3[2].checked){
         result+=5;
     }
-    if(q4[2].checked){
+    if(q4[3].checked){
         result +=5;
     }
     if(q5[0].checked){
         result+=5;
     }
-    if(q6[3].checked){
+    if(q6[2].checked){
         result+=5;
     }
     if(result = 30){
